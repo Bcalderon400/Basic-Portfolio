@@ -44,7 +44,7 @@ body{
     background-image: url("../images/diagonal_waves.png");
     margin: 70px auto;
     width: 960px;
-    height: 400px;
+    height: 800px;
     border: 1px solid #dddddd;
 }
 h2{
@@ -53,14 +53,10 @@ h2{
     border-bottom: 1px solid black;
     padding-bottom: 30px;
 }
-.projects{
-    margin: 60px 55px;
-}
 #RPG-Game, #Hangman, #trivia, #widget, #rock{
     margin-right: 20px;
     width: 150px;
     height: 200px;
-    float: left;
 }
 #RPG-Game{
     background-image: url("../images/rpg.png");
@@ -80,17 +76,24 @@ h2{
 .pg{
    background: rgba(74, 170, 165, 0.8);
    text-align: center;
-   text-transform: uppercase;
-   padding: 15px 0;
+   padding: 10px 0;
    color: #ffffff;
    top: 142px;
    position: relative;
-   font-size: 13px;
+   font-size: 16px;
+   font-family: 'Georgia', Times, Times New Roman, serif;
 }
-
-
+.container{
+    margin: 40px 300px;
+}
+.col1{
+    float: left;
+}
+.col2{
+    float: left;
+}
 /**footer**/
-footer{
+.foot{
     background-image: url("../images/dark-honeycomb.png");
     position: fixed;
     left: 0;
@@ -100,4 +103,5 @@ footer{
     font-family: 'Georgia', Times, Times New Roman, serif;
     border-top: 4px solid #4aaaa5;
     color: #777777;
+    padding: 35px 0;
 }
