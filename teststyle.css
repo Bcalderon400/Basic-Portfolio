@@ -1,0 +1,11 @@
+.card{
+    margin-top: 100px;
+    background-image: url("../images/diagonal_waves.png");
+    margin: 20px auto;
+}
+body{
+    background-color: blue;
+}
+.col-md-8{
+    margin: 20px auto;
+}
